@@ -1,0 +1,164 @@
+
+.form-container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  margin-top: 30px;
+  border-radius: 0px;
+  color: #ffffff;
+  border: 3px solid rgb(216, 2, 134);
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  transition: ease-out 0.4s;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  box-shadow: inset 0 100px 0 0 #D80286;
+}
+
+.button_slide {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  color: #ffffff;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  transition: ease-out 0.4s;
+  text-decoration: none;
+}
+
+.button_slidebuttom {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #ffffff;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  transition: ease-out 0.4s;
+  text-decoration: none;
+}
+.button_register{
+  position: fixed;
+  margin-top: 30px;
+  right: 20px;
+  color: #ffffff;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  transition: ease-out 0.4s;
+  text-decoration: none;
+}
+.slide_down:hover {
+  box-shadow: inset 0 100px 0 0 #D80286;
+}
+
+.sect {
+  width: 100%;
+  min-height: 140vh;
+}
+
+#sect1 {
+  background-color: #0000007d;
+  color: #080808;
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 95%;
+  z-index: -1;
+}
+#exampleInputEmail1 {
+  background-color: #ffffff7d;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+#exampleInputPassword1 {
+  background-color: #ffffff7d;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+#emailHelp{
+  background-color: #ffffff00;
+  color: #ffffff;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+#contrasena{
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+#correo{
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+#datos{
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+#nombre{
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+#nombre_user {
+  background-color: #ffffff7d;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+/*#datosR{
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
+  
+}*/
